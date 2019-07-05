@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgba(127,196,253,0.65);
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+    margin-left: 10px;
+}
+li{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+ul li{
+    float: left;
+    width: 180px;
+    font-size: 20px;
+    height: 80px;
+    line-height:80px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    display:block;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition:0.6s all;
+}
+#pass{
+    background-color: #fff;
+    color: #000;
+}
+.boardingPass{
+    border: 1px solid #000;
+    height: 420px;
+    width: 510px;
+    position: absolute;
+    top:105px;
+    left: 375px;
+    background-color: rgba(127,196,253,0.15);
+    border: 1px solid rgba(112,112,112,0.4);
+    box-shadow: 1px 1px 10px #7FC4FD;
+}
+.head{
+    border-bottom: 1px solid rgba(112,112,112,0.4);
+    height: 51.05px;
+    width: 510px;
+    text-align: center;
+}
+.title{
+    padding: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(127,196,253,0.66);
+}
+.nako{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.hay{
+    font-size: 18px;
+}
+
+.upper{
+    position: absolute;
+    top: 170px;
+}
+
+.mid{
+    position: absolute;
+    top: 170px;
+    left: 190px;
+}
+
+.lower{
+    position: absolute;
+    top: 170px;
+    right: 30px;
+}
+#png{
+    position: absolute;
+    top: 60px;
+    left: 190px;
+}
+button:hover {
+    opacity: 0.8;
+  }
+  #bac{
+    background-color: rgba(127, 196, 253, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 121px;
+    height: 54px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 28px;
+    box-shadow: 1px 1px 1px 1px rgba(38, 153, 251, 0.4);
+  }
+  #proc {
+    background-color: rgba(127, 196, 253, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 538px;
+    right: 450px;
+  }
+  #bac{
+    background-color: rgba(127, 196, 253, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 538px;
+    left: 430px;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  }
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  
+  #return{
+    background-color: rgba(127, 196, 253, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  } 
+  
+  #closes{
+    background-color: rgba(127, 196, 253, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+
+
+
+  .close:hover,
+  .close:focus .return:hover,.return:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-body {padding: 2px 16px;}
+

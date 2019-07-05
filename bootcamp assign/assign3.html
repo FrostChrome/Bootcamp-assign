@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assign3.css">
+    </head>
+    <body>
+        <header>
+            <div id="navi"> 
+            <nav>
+                <ul>
+                    <li><a onclick="location.href = 'assign2.html'"; href="#" id="restrict">RESTRICTIONS</a></li>
+                    <li><a href="#" id="bag">BAGGAGE</a></li>
+                    <li><a href="#" id="flight">FLIGHT DETAILS</a></li>
+                    <li><a href="#" id="pass">BOARDING PASS</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+        
+        <div class="bord">
+        <div class="inbord">
+        <div class="pic">
+            <img src="baggage.png" alt="ebag" class="ebag">
+        </div>
+        <!--drop down-->
+        <div class="counter">
+            <p>
+                <select id = "myList">
+                    <option value = "" disabled selected></option>
+                    <option value = "0">0</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                </select>
+                <label><b>Check In Baggage</b></label>
+            </p>
+        </div>
+        <p id="rem1">*Max. of 2 Bags only</p>
+        <p id="rem2">*For special baggages you may proceed <br>to the baggage counter for details.</p>
+        <button onclick="location.href = 'assign2.html'"; type="submit" id="bac"><b>Back</b></button>
+        <button onclick="location.href = 'assign4.html'"; type="submit" id="pro"><b>Proceed</b></button>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assign2.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div id="navi"> 
+            <nav>
+                <ul>
+                    <li><a href="#" id="restrict">RESTRICTIONS</a></li>
+                    <li><a href="#" id="bag">BAGGAGE</a></li>
+                    <li><a href="#" id="flight">FLIGHT DETAILS</a></li>
+                    <li><a href="#" id="pass">BOARDING PASS</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <form>
+        <!--hand carry restriction-->
+        <div class="card" style="width: 18rem;" id="hand">
+            <img src="hand.png" class="card-img-top" id="handb">
+            <div class="card-body" id="card-body1">
+              <h5 class="card-title"><b>Hand Carry Baggage</b></h5>
+              <p class="card-text">Every passenger is allowed two hand carry baggage inside the cabin, with a maximum weight of seven (7) kilograms and dimension of up to 56cm x 36cm x 23cm. This includes most wheeled cabin bags and backpacks. The hand carry baggage must fit inside the overhead bin.</p>
+            </div>
+          </div>
+        
+          <!--checkin baggage restriction-->
+          <div class="card" style="width: 18rem;" id="check">
+            <img src="check.png" class="card-img-top" id="checkb">
+            <div class="card-body">
+              <h5 class="card-title"><b>Check In Baggage</b></h5>
+              <p class="card-text">A checked bag cannot exceed 32kg per piece. Dangerous items are not allowed for check-in or carry-on.<br>Baggage Protect is an insurance rider of Travelsure that offers compensation for the loss or damage of baggage in transit. Starts upon baggage check-in and ends upon baggage claim at the destination airport. </p>
+            </div>
+          </div>
+
+          <!--sports equipment restriction-->
+          <div class="card" style="width: 18rem;" id="special">
+                <img src="sports.png" class="card-img-top" id="specialsp">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Sports Equipment</b></h5>
+                  <p class="card-text">You can bring your sports equipment as checked baggage provided it is packed properly and securely. For the list of sports equipment allowed and their corresponding fees, you may check our APL Sports Equipment page.</p>
+                </div>
+        </div>
+        
+        <!--firearms restriction-->
+        <div class="card" style="width: 18rem;" id="specialg">
+                <img src="gun.png" class="card-img-top" id="specialgun">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Firearms and Other Weapons</b></h5>
+                  <p class="card-text">We allow carriage of firearms as checked baggage to all domestic flights, for a fee. Passengers bringing their personal firearms must be ready to present the following documents at any time that it is required by authorities.</p>
+                </div>
+        </div> 
+    </form>
+    <button onclick="window.location.href = 'assign1.html'"; type="submit" id="bac"><b>Back</b></button>
+    <button onclick="window.location.href = 'assign3.html'"; type="submit"><b>Check-In</b></button>
+    </body>
+</html>
